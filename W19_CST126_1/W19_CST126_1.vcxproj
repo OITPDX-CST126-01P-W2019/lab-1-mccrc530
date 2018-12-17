@@ -162,6 +162,9 @@
     </ClCompile>
     <ClCompile Include="W19_CST126_1.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\readme.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
