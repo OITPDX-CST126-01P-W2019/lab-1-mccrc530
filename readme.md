@@ -3,10 +3,11 @@
 **Class ID:** Rowan
 
 **Unresolved Issues:**
-+ totalCount is 1 less than expected when testing using provided test.txt (82 < 83)
++ N/A
 
 **Notes:**
-
++ totalCount is 1 less than expected when testing using provided test.txt (82 < 83)
+++ manually counted the words in test.txt and 82 was my total, implying the lab 1 doc is incorrect
 
 
 ## Cyclomatic Complexity
