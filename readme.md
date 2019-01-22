@@ -3,7 +3,7 @@
 **Class ID:** Rowan
 
 **Unresolved Issues:**
-+ [Replace this with any known issues.  If it works groovy say that]
++ totalCount is 1 less than expected when testing using provided test.txt (82 < 83)
 
 **Notes:**
 
