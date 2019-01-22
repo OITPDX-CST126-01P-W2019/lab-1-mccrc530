@@ -3,15 +3,21 @@
 
 #include "pch.h"
 #include <iostream>
-
-using namespace std;
-
-
-
+#include <fstream>
+#include "word_count.h"
 
 int main()
 {
+	std::cout << "Please enter the input file name including extension: " << std::endl;
 
+	std::string fileName;
+	std::cin >> fileName;
+	std::ifstream file(fileName);
+
+	word_count data;
+	InitializeWordCount(data, file, fileName);
+	PrintWordCount(data);
+	file.close();
 }
 
 // Here are the steps I took when I did the lab.  They are just suggestions.  Please do work incrementally.
